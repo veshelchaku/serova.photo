@@ -1,7 +1,7 @@
 {
     "build": {
       "env": {
-        "SECTRET": "@secret"
+        "SECRET": "@secret"
       }
     }
   }
