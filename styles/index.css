@@ -1,0 +1,150 @@
+.main-carousel {
+    max-width: 1920px;
+    margin: auto;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .main-carousel img{
+        height: 30vh !important; 
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+.quote {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.quote-container {
+    margin-top:21vh;
+    margin-bottom:21vh;
+    width:100%;
+    text-align: center;
+}
+
+.price {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 0 3vh;
+    border-width: 1px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+        to left, 
+        rgb(174, 0, 255), 
+        rgb(255, 75, 62)
+        ) 1;
+}
+
+.price-header-container {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.price-header-text {
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+.price-footer-container {
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    margin-right: -3vh;
+    margin-left: -3vh;
+    display: flex;
+    justify-content: center;
+    background: 
+        linear-gradient(
+        to left, 
+        rgb(174, 0, 255), 
+        rgb(255, 75, 62)
+        );
+}
+
+.price-footer-text {
+    color: white;
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.price-content {
+    font-size: 1.2em;
+}
+
+.price-additions {
+    margin-top: 2vh;
+    font-size: 1em;
+}
+
+.prices-container {
+    display: grid;
+    grid-gap: 12vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.prices-clarification {
+    margin-top:10vh;
+    margin-bottom:10vh;
+    width:100%;
+    text-align: center;
+}
+
+.prices-clarification-text {
+    font-size: 1.2em;
+}
+
+@media (max-width: 1024px) {
+    .prices-container {
+        grid-template-columns: 1fr;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+    .quote {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1366px) and (min-width: 1025px) {
+    .prices-container {
+        grid-template-columns: 1fr;
+        margin-left: 32vw;
+        margin-right: 32vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .prices-container {
+        grid-template-columns: 1fr;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .quote {
+        font-size: 1.5rem;
+    }
+
+    .price-header-text{
+        font-weight: 300;
+        font-size: 1.2em;
+    }
+
+    .price-footer-text{
+        font-size: 1em;
+    }
+    
+    .price-content{
+        font-size: 1em;
+    }
+    
+    .price-additions{
+        font-size: .8em;
+    }
+}

@@ -1,0 +1,23 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 5vh;
+    margin-bottom: 1vh;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.credits{
+    text-align: center;
+    font-size: 8px;
+}

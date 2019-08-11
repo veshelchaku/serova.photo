@@ -1,0 +1,32 @@
+{
+  "name": "serova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@zeit/next-css": "^1.0.1",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.3.1",
+    "instafeed-lite": "^1.0.10",
+    "instagramjs": "^1.0.1",
+    "latest": "^0.2.0",
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.8.6",
+    "react-instagram-embed": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs2": "^7.5.4"
+  }
+}
