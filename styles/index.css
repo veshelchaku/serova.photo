@@ -32,12 +32,7 @@
     padding: 0 3vh;
     border-width: 1px;
     border-style: solid;
-    border-image: 
-        linear-gradient(
-        to left, 
-        rgb(174, 0, 255), 
-        rgb(255, 75, 62)
-        ) 1;
+    border-image: #28292d
 }
 
 .price-header-container {
@@ -59,12 +54,7 @@
     margin-left: -3vh;
     display: flex;
     justify-content: center;
-    background: 
-        linear-gradient(
-        to left, 
-        rgb(174, 0, 255), 
-        rgb(255, 75, 62)
-        );
+    background:  #28292d
 }
 
 .price-footer-text {
@@ -98,7 +88,7 @@
 }
 
 .prices-clarification-text {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 @media (max-width: 1024px) {

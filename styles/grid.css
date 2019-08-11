@@ -4,16 +4,16 @@
 
 .images-grid {
     display: flex;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 .images-grid-column {
     flex: 33%;
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 .images-grid-img {
@@ -22,7 +22,7 @@
 
 .images-grid-item {
     cursor: pointer;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     position: relative;
 }
 
@@ -79,11 +79,11 @@
 
 @media (max-width: 480px) {
     .images-grid-column {
-        margin-left: .5rem;
-        margin-right: .5rem;
+        margin-left: .25rem;
+        margin-right: .25rem;
     }
     
     .images-grid-item {
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
 }
