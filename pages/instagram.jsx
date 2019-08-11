@@ -3,7 +3,7 @@ import Instagram from 'instagramjs';
 import styles from '../styles/instagram.css';
 import Spinner from '../components/spinner';
 
-const token = process.env.SECRET;
+const token = process.env.secret;
 
 const access = new Instagram(token)
 
