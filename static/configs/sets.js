@@ -12,8 +12,7 @@ let data = {
                 {name:"6"},
                 {name:"7"},
                 {name:"8"},
-                {name:"9"},
-                {name:"10"}
+                {name:"9"}
             ]
         }
     ]
