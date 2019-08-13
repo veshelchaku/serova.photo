@@ -20,19 +20,19 @@ class SeriesGrid extends React.Component {
     render() {
         return (
             <div className={styles.container}>
-                <div className={styles.title}>Серии</div>
+                <div className={styles.title}>Свадьбы</div>
                 <div className={`${styles["series-grid"]} ${styles[`series-grid-${gridSize()}`]}`}>
                     {seriesItems.map((item, index) => 
                         <div key={item.key}>
-                            <div className={styles["series-title"]}>
-                                {item.name}
-                            </div>
                             <Link href={`/series?index=${index}`}>
                                 <div className={styles["series-container"]}>
                                     <div className={styles["series-link"]}></div>
                                     <img className={styles.preview} src={item.preview}/>
                                 </div>
                             </Link>
+                            <div className={styles["series-title"]}>
+                                {item.name}
+                            </div>
                         </div>
                     )}
                 </div>
