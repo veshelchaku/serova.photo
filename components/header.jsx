@@ -42,13 +42,18 @@ const Header = () => (
         </MenuItem>
       </Menu> */}
 
-      <NavItem className={styles.item}>
+      <a className={styles.item} href="https://www.instagram.com/serova.ph/">
+        <div className={styles["item-container"]}>
+          <span>Инстаграм</span>
+        </div>
+      </a>
+      {/* <NavItem className={styles.item}>
         <Link href="/instagram">
           <div className={styles["item-container"]}>
             <span>Инстаграм</span>
           </div>
         </Link>
-      </NavItem>
+      </NavItem> */}
       {/* <NavItem className={styles.item}>
         <Link href="/instagram">
           <div className={styles["item-container"]}>
