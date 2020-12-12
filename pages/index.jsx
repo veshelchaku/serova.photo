@@ -27,7 +27,7 @@ export default () => (
 
     <div className={styles["quote-container"]}>
       <div className={styles["quote"]}>
-        Здесь люди и их истории
+        минимализм текстуры детали
       </div>
     </div>
 

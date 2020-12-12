@@ -42,7 +42,7 @@ const Header = () => (
         </MenuItem>
       </Menu> */}
 
-      <a className={styles.item} href="https://www.instagram.com/serova.ph/">
+      <a className={styles.item} href="https://www.instagram.com/serovadar/">
         <div className={styles["item-container"]}>
           <span>Инстаграм</span>
         </div>

@@ -13,7 +13,6 @@
 .series-grid {
     display: grid;
     grid-gap: 4vw;
-    grid-auto-rows: 100%;
 }
 
 .title {

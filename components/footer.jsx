@@ -10,7 +10,7 @@ const Footer = () => (
             </div>
 
             <div>
-                <a href="https://www.instagram.com/serova.ph/">
+                <a href="https://www.instagram.com/serovadar/">
                     <img src="static/icon/inst.svg" className={styles.icon}/>
                 </a>
             </div>

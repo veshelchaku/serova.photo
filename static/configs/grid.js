@@ -3,7 +3,7 @@ let data = {
     current: "0",
     sets: [
         {
-            count: 12,
+            count: 10,
             images: [
                 { name: "1" },
                 { name: "2" },
@@ -35,12 +35,6 @@ let data = {
                 { name: "28" },
                 { name: "29" },
                 { name: "30" },
-                { name: "31" },
-                { name: "32" },
-                { name: "33" },
-                { name: "34" },
-                { name: "35" },
-                { name: "36" }
             ]
         }
     ]
