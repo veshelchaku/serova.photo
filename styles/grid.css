@@ -4,8 +4,8 @@
 
 .images-grid {
     display: flex;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .images-grid-column {
