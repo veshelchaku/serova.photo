@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Footer from './footer'
 import Header from './header'
 
-import styles from '../styles/page.css';
-import { headLinkProps } from '../static/configs/headLinks';
+//import styles from '../styles/page.css';
+import { headLinkProps } from '../public/static/configs/headLinks';
 
 const Layout = ({children}) => (
   <>
@@ -15,7 +15,7 @@ const Layout = ({children}) => (
     </Head>
 
     <Header/>
-      <div className={styles.page}>
+      <div>
           {children}
       </div>
     <Footer/>

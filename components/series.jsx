@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-import seriesConfig from '../static/configs/series'
+import seriesConfig from '../public/static/configs/series'
 
-import styles from '../styles/series.css';
+//import styles from '../styles/series.css';
 
 const seriesItems = seriesConfig.sets.map((item, index) => {
     return {key: index, name: item.name, preview: `${seriesConfig.path}/${index}/${item.images[item.preview].name}.jpg`}
@@ -12,12 +12,9 @@ const gridSize = () => {
     return seriesItems.length > 2 ? 3 : seriesItems.length
 }
 
-class SeriesGrid extends React.Component {
-    constructor(props, context) {
-        super(props, context);
-    }
+const styles = {}
 
-    render() {
+const SeriesGrid = () => {
         return (
             <div className={styles.container}>
                 <div className={styles.title}>Свадьбы</div>
@@ -38,7 +35,6 @@ class SeriesGrid extends React.Component {
                 </div>
             </div>
         )
-    }
 }
 
 export default SeriesGrid;

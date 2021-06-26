@@ -1,24 +1,17 @@
 import ImagesGrid from '../components/grid';
 import SeriesGrid from '../components/series';
 
-import styles from '../styles/index.css';
+//import styles from '../styles/index.css';
 
-import pricesConfig from '../static/configs/prices'
+import pricesConfig from '../public/static/configs/prices'
 
 import CustomCarousel from '../components/carousel';
 
-export default () => (
+const styles = {};
+
+const Index = () => (
   <>
-    <Carousel className = {styles["main-carousel"]}
-              interval = {3500} 
-              nextIcon = {<div className="glyphicon glyphicon-menu-right"></div>}
-              prevIcon = {<div className="glyphicon glyphicon-menu-left"></div>}>
-      {carouselItems.map(item => 
-        <Carousel.Item key={item.key}>
-          <img width={1920} height={500} src={item.image}/>
-        </Carousel.Item>
-      )}
-    </Carousel>
+    <CustomCarousel/>
 
     <div className={styles["quote-container"]}>
       <div className={styles["quote"]}>

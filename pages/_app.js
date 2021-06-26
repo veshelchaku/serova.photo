@@ -18,9 +18,10 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props
 
     return (
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+      <div>123</div>
+        // <Layout>
+        //   <Component {...pageProps} />
+        // </Layout>
     )
   }
 }

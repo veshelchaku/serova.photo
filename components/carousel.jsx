@@ -1,4 +1,4 @@
-import setConfig from '../static/configs/sets'
+import setConfig from '../public/static/configs/sets'
 
 import { StyledCarousel } from './carousel.styled';
 
@@ -12,7 +12,7 @@ const CustomCarousel = () => {
     )
 
     return (
-        <StyledCarousel className = {styles["main-carousel"]}
+        <StyledCarousel 
                 interval = {3500} 
                 nextIcon = {<div className="glyphicon glyphicon-menu-right"></div>}
                 prevIcon = {<div className="glyphicon glyphicon-menu-left"></div>}>

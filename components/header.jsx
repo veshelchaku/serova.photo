@@ -1,11 +1,11 @@
-import Link from 'next/link'
-import Navbar from 'react-bootstrap/lib/Navbar'
-import Nav from 'react-bootstrap/lib/Nav'
+// import Link from 'next/link'
+// import Navbar from 'react-bootstrap/lib/Navbar'
+// import Nav from 'react-bootstrap/lib/Nav'
 
-import styles from '../styles/header.css';
+// import styles from '../styles/header.css';
 
 const Header = () => (
-<Navbar fixedTop fluid={true} className={styles.navbar}>
+{/* <Navbar fixedTop fluid={true} className={styles.navbar}>
   <Link href="/">
     <div className={styles.brand}>
         <img
@@ -21,7 +21,7 @@ const Header = () => (
         </div>
       </a>
     </Nav>
-</Navbar>
+</Navbar> */}
 )
 
 export default Header;
