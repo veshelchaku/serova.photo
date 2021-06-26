@@ -1,19 +1,14 @@
-import Carousel from 'react-bootstrap/lib/Carousel';
 import ImagesGrid from '../components/grid';
 import SeriesGrid from '../components/series';
 
 import styles from '../styles/index.css';
 
-import setConfig from '../static/configs/sets'
 import pricesConfig from '../static/configs/prices'
 
-const carouselItems = setConfig.sets[setConfig.current].images.map((item, index) => {
-    return {key: index, image: `${setConfig.path}/${setConfig.current}/${item.name}.jpg`}
-  }
-)
+import CustomCarousel from '../components/carousel';
 
 export default () => (
-  <div>
+  <>
     <Carousel className = {styles["main-carousel"]}
               interval = {3500} 
               nextIcon = {<div className="glyphicon glyphicon-menu-right"></div>}
@@ -75,5 +70,7 @@ export default () => (
     <ImagesGrid/>
 
     <SeriesGrid/>
-  </div>
+  </>
 )
+
+export default Index;

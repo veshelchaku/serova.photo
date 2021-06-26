@@ -1,4 +1,4 @@
-let data = {
+let config = {
     path: "static/img/sets",
     current: "0",
     sets: [
@@ -19,4 +19,4 @@ let data = {
     ]
 }
 
-export default data
+export default config

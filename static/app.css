@@ -8,12 +8,6 @@ body {
     width: fit-content;
 }
 
-/* @media (max-width: 480px) {
-    #__next {
-        width: 100vw;
-    }
-} */
-
 ul{
     list-style: none; 
     padding: 0;
